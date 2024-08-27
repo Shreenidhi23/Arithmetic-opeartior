@@ -1,0 +1,61 @@
+# Arithmetic-opeartor
+Arithmetic operations 
+public class arithmetic{
+    public static void main(String args[])
+{
+    int a =98;
+    int b= 87;
+    float c = 95.0f;
+    float d = 57.4f;
+    
+    System.out.println(a+b);
+    System.out.println(c*d );
+}
+}
+O/P: 
+PS C:\Users\ASUS\OneDrive\Documents\Desktop\Desktop> javac arithmetic.java
+PS C:\Users\ASUS\OneDrive\Documents\Desktop\Desktop> java arithmetic
+185
+5453.0
+
+# Program using Unary opearator
+
+public class Simple{
+    public static void main(String args[]){
+        int x = 25;
+        System.out.println("Prefix increment:" + (++x));
+
+        System.out.println("Postfix increment:" + (x++));
+
+        System.out.println("Prefix decrement:" + (--x));
+
+        System.out.println("Postfix decrement:" + (x--));
+    }
+}
+O/P : 
+PS C:\Users\ASUS\OneDrive\Documents\Desktop\Desktop> javac simple.java
+PS C:\Users\ASUS\OneDrive\Documents\Desktop\Desktop> java Simple
+Prefix increment:26
+Postfix increment:26
+Prefix decrement:26
+Postfix decrement:26
+PS C:\Users\ASUS\OneDrive\Documents\Desktop\Desktop> 
+
+# Program of personal details using Data Types
+//WAP to print Age,Name,Address,Price,Contact n.o
+ public class Details{
+    public static void main(String args[])
+    {
+        String Name = "Ajay";
+        String Address = "Banglore";
+        int age = 23;
+        Float price = 6.9f;
+        String email = "atos.234@gmail.com";
+        double contact = 598652165426L;
+        System.out.println("Name: " + Name + ", Address: " + Address + ", Age: " + age + ", Price: " + price + ", Email: " + email + ", Contact: " + contact);
+    }
+    }
+O/P:
+PS C:\Users\ASUS\OneDrive\Documents\Desktop\Desktop> javac Details.java
+PS C:\Users\ASUS\OneDrive\Documents\Desktop\Desktop> java Details
+Name: Ajay, Address: Banglore, Age: 23, Price: 6.9, Email: atos.234@gmail.com, Contact: 5.98652165426E11
